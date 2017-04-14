@@ -1,0 +1,13 @@
+1,color 有几种表现形式：
+                        @1：red , green , blue , yellow , pink ,skyblue 等等。
+                        @2：rgb(225,225,225) ,值为0~225。
+                        @3：#cccccc  , 值为0~ f。
+
+
+
+
+
+
+
+
+
