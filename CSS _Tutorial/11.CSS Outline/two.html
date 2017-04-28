@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        p {
+            border: 1px solid blue;
+        }
+
+        .one {
+            outline-style: dashed;
+            outline-color: red;
+            outline-width: 10px;
+        }
+
+        .two {
+            outline-color: darkgreen;
+            outline-style: dashed;
+            outline-width: thick;
+        }
+
+        .three {
+            outline-color: red;
+            outline-style: dashed;
+            outline-width: medium;
+        }
+
+        .four {
+            outline-color: green;
+            outline-style: dashed;
+            outline-width: thin;
+        }
+
+        .five {
+            outline-color: red;
+            outline-style: dashed;
+            outline-width: medium;
+        }
+
+        .son {
+            outline-color: green;
+            outline-style: dashed;
+            outline-width: inherit;
+        }
+    </style>
+</head>
+<body>
+<p class="one">hello world</p>
+<p class="two">hello world</p>
+<p class="three">hello world</p>
+<p class="four">hello world</p>
+<div class="five">
+    father
+    <p class="son">hello world</p>
+</div>
+</body>
+</html>
