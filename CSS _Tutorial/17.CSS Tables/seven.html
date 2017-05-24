@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Striped Tables</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td, th{
+            border-bottom:1px solid salmon;
+            text-align: left;
+            padding: 10px;
+        }
+        tr:nth-child(even){
+            background-color: skyblue;
+        }
+    </style>
+</head>
+<body>
+<table class="demo1">
+    <tr>
+    <th>fruit</th>
+    <th>animal</th>
+</tr>
+    <tr>
+        <td>apple</td>
+        <td>cat</td>
+    </tr>
+    <tr>
+        <td>bananer</td>
+        <td>dog</td>
+    </tr>
+    <tr>
+        <th>fruit</th>
+        <th>animal</th>
+    </tr>
+    <tr>
+        <td>apple</td>
+        <td>cat</td>
+    </tr>
+    <tr>
+        <td>bananer</td>
+        <td>dog</td>
+    </tr>
+</table>
+</body>
+</html>
