@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The clearfix Hack</title>
+    <style>
+        img {
+            width: 100px;
+            height: 100px;
+            float: right;
+        }
+
+        div {
+            border: 1px solid darkgreen;
+        }
+
+        .clearfix {
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+<!--可以用 overflow: auto; 来解决浮动溢出问题-->
+<div>The clearfix Hack The clearfix Hack The clearfix Hack The clearfix Hack The clearfix Hack The clearfix Hack The
+    clearfix Hack The clearfix Hack The clearfix Hack The clearfix Hack The clearfix Hack
+    <img src="two.jpg" alt=""></div>
+<p>fffffffffffffffff</p>
+<p>fffffffffffffffff</p>
+<p>fffffffffffffffff</p>
+<div class="clearfix">The clearfix Hack The clearfix Hack The clearfix Hack The clearfix Hack The clearfix Hack The
+    clearfix Hack The clearfix Hack The clearfix Hack The clearfix Hack The clearfix Hack The clearfix Hack
+    <img src="two.jpg" alt=""></div>
+</body>
+</html>
