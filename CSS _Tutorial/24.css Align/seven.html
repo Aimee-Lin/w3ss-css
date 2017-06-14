@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Center Vertically - Using line-height</title>
+    <style>
+        .center {
+            height: 200px;
+            border: 2px solid darkcyan;
+            text-align: center;
+            line-height: 200px;
+        }
+
+        /*p{*/
+        /*display: inline-block;*/
+        /*margin: 0;*/
+        /*padding: 0;*/
+        /*}*/
+        p {
+            line-height: 1.5;
+            vertical-align: middle; /*垂直对齐*/
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+<!--使用与高度属性相等的值的行高度属性-->
+<div class="center">
+    <p>使用与高度属性相等的值的行高度属性</p>
+</div>
+</body>
+</html>
